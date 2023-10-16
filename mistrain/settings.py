@@ -52,6 +52,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     
+    # 'django.contrib.staticfiles.middleware.StaticFilesMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -96,7 +97,7 @@ DATABASES = {
         'NAME': 'django',
         'HOST': '127.0.0.1',
         'PORT': '3306',
-        'USER': 'root',
+        'USER': 'mistrain',
         'PASSWORD': 'mistrs',
     }
 }
